@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Attendance Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo.png" alt="RRR Private Ltd Logo">
+        <h1>RRR Private Ltd</h1>
+    </div>
+</header>
+
+<h2>Employee Attendance Dashboard</h2>
+
+<div class="container">
+
+    <input type="text" id="id" placeholder="Employee ID">
+    <input type="text" id="name" placeholder="Employee Name">
+    <input type="text" id="dept" placeholder="Department">
+    <input type="number" id="working" placeholder="Working Days">
+    <input type="number" id="present" placeholder="Present Days">
+    <input type="number" id="leave" placeholder="Leave Days">
+
+    <button onclick="addEmployee()">Submit</button>
+
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Attendance %</th>
+            <th>Status</th>
+            
+        </tr>
+    </thead>
+
+    <tbody id="tableBody">
+
+    </tbody>
+</table>
+
+<footer>
+    <p>Contact: rrrprivate@gmail.com</p>
+    <p>© 2026 RRR Private Ltd. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
